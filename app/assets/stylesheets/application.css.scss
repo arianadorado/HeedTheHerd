@@ -1,26 +1,19 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-body {
-    background:#EAE7E5 !important;
+body  {
+    background-color: #EAE7E5;
     color: #3E363C;
+    padding-top: 10px;
 }
 
-#background_image {
-    background: url(images/background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#cover-all {
-  background: url(/assets/indeximage.jpg); 
+.cover-all {
+  background: url(/assets/indeximage2.jpg);
+  text-align: center; 
   width: 100%;
-  height: 150px;
-  overflow: hidden;
+  z-index: 0;  
+  height: 300px;
   background-repeat: no-repeat;
-  background-position: center;
-  padding: 10px;
-  margin: 10px;
 }
 
 .jumbotron {
@@ -129,4 +122,9 @@ a:hover {
 /* selected link */
 a:active {
     color: #777;
+}
+
+.features {
+  padding-top: 20px;
+  padding-left: -15px;
 }
